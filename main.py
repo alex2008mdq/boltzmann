@@ -14,3 +14,17 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+class Particula:
+    def __init__(self, masa, x, y, z, vx, vy, vz):
+        Particula.masa = masa
+        Particula.x = x
+        Particula.y = y
+        Particula.z = z
+        Particula.vx = vx
+        Particula.vy = vy
+        Particula.vz = vz
+
+class Ensemble:
+    def __init__(self):
